@@ -11,7 +11,11 @@ function Header() {
         </a>
 
         <div className="d-flex justify-content-end">
-          <Link to={<Signup/>} className="btn btn-outline-success me-2" type="submit">
+          <Link
+            to="/signup"
+            className="btn btn-outline-success me-2"
+            type="submit"
+          >
             LOGIN
           </Link>
         </div>
