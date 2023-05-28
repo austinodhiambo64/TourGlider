@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Wishlist from "./Wishlist";
+import Header from "./Layout/Header";
 
 function DestinationDetail() {
   const [showAlert, setShowAlert] = useState(false);
@@ -15,6 +16,7 @@ function DestinationDetail() {
 
   return (
     <div className="container">
+      <Header/>
       {showAlert && (
         <div
           className="alert alert-success position-fixed top-0 start-50 translate-middle-x mt-3"

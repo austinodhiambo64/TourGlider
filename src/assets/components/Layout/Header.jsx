@@ -7,7 +7,7 @@ import Footer from "./Footer";
 
 function Header() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-body-tertiary fixed-top">
+    <nav className="navbar navbar-expand-lg navbar-light  fixed-top">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
           <strong>tour</strong>GLIDER

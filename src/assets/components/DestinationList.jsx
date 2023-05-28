@@ -1,10 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Header from "./Layout/Header";
 
 
 function DestinationList() {
   return (
     <div>
+      <Header/>
       <div className="card" style={{ width: "18rem" }}>
         <img
           src="./images/Pasted image 1.jpg" // Make sure the image path is correct

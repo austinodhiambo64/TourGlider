@@ -1,8 +1,10 @@
 import React from "react";
+import Header from "./Layout/Header";
 
 function Signup() {
   return (
     <div className="container text-center">
+      <Header/>
       <div className="row align-items-center bg-success p-2 text-white bg-opacity-75">
         <div className="col">
           <div className="card" style={{ width: '28rem' }}>
@@ -21,13 +23,13 @@ function Signup() {
                 <label htmlFor="inputEmail4" className="form-label">
                   Email
                 </label>
-                <input type="email" className="form-control" id="inputEmail4" />
+                <input placeholder="somebodycool@gmail.com" type="email" className="form-control" id="inputEmail4" />
               </div>
               <div className="col-md-6">
                 <label htmlFor="inputPassword4" className="form-label">
                   Password
                 </label>
-                <input type="password" className="form-control" id="inputPassword4" />
+                <input placeholder="Password" type="password" className="form-control" id="inputPassword4" />
               </div>
               <div className="col-12">
                 <label htmlFor="inputAddress" className="form-label">
@@ -80,7 +82,7 @@ function Signup() {
                     id="gridCheck"
                   />
                   <label className="form-check-label" htmlFor="gridCheck">
-                    Check me out
+                    I am human
                   </label>
                 </div>
               </div>
